@@ -21,7 +21,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git ""
+                            git "https://github.com/vishalgr/Alpha_Project"
                         }
                     }
                 }
